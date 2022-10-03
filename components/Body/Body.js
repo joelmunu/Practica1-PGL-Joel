@@ -1,12 +1,9 @@
 import { StyleSheet, Text, View } from 'react-native';
-import Header from './components/Header/Header';
-import Body from './components/Body/Body';
 
-export default function App() {
+export default function Body() {
   return (
     <View style={styles.container}>
-      <Header style={styles.header}></Header>
-      <Body style={styles.body}></Body>
+        <Text>Body</Text>
     </View>
   );
 }
@@ -18,12 +15,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-
-  header: {
-    flex: 1
-  },
-
-  body: {
-    flex: 4
-  }
 });
