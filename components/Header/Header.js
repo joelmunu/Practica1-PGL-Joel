@@ -15,8 +15,7 @@ export default function Header() {
       height: 150,
       width: '100%',
       backgroundColor: 'lemonchiffon',
-      alignItems: 'center',
-
+      alignItems: 'center'
     },
 
     img: {
