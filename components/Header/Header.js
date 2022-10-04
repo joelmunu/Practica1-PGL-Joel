@@ -31,6 +31,7 @@ export default function Header() {
     name: {
         color: 'deepskyblue',
         fontSize: 20,
+        fontWeight: 'bold',
         marginTop: 25
     }
   });
