@@ -8,7 +8,7 @@ export default function App() {
     <View style={styles.container}>
       <Header style={styles.header}></Header>
       <Body style={styles.body}></Body>
-      <QrCode style={styles.qrcode}></QrCode>
+      <QrCode style={styles.qrcode} link={'https://github.com/joelmunu/Practica1-PGL-Joel'}/>
     </View>
   );
 }
@@ -30,6 +30,6 @@ const styles = StyleSheet.create({
   },
 
   qrcode: {
-    flex: 1
+    flex: 2
   }
 });
